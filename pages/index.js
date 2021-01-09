@@ -13,7 +13,7 @@ export default function Home(props) {
   return (
     <Layout>
       <SEO />
-      <Header title="Home Page" subtitle="Welcome!" />
+      <Header title="Home Page" subtitle={`Welcome ${user.name}`} />
     </Layout>
   );
 }
