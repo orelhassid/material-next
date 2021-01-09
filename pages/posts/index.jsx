@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Layout, SEO } from "../components/layout";
+import { Layout, SEO } from "../../src/components/layout";
 
 function Posts({ posts }) {
   return (

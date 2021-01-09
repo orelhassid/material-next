@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
-import Navbar from "../components/layout/Navbar";
+import Navbar from "../../src/components/layout/Navbar";
 
 export default function Post({ post }) {
   const router = useRouter();
